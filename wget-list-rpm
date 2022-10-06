@@ -1,0 +1,14 @@
+https://zlib.net/zlib-1.2.12.tar.xz
+https://www.openssl.org/source/openssl-3.0.5.tar.gz
+https://github.com/libarchive/libarchive/releases/download/v3.6.1/libarchive-3.6.1.tar.xz
+https://downloads.sourceforge.net/infozip/unzip60.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/11.2/unzip-6.0-consolidated_fixes-1.patch
+https://sqlite.org/2022/sqlite-autoconf-3390200.tar.gz
+https://sqlite.org/2022/sqlite-doc-3390200.zip
+https://pkg-config.freedesktop.org/releases/pkg-config-0.29.2.tar.gz
+https://www.lua.org/ftp/lua-5.4.4.tar.gz
+https://www.linuxfromscratch.org/patches/blfs/11.2/lua-5.4.4-shared_library-1.patch
+https://ftp.osuosl.org/pub/rpm/popt/releases/popt-1.x/popt-1.19.tar.gz
+https://www.sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz
+https://www.linuxfromscratch.org/patches/lfs/11.2/bzip2-1.0.8-install_docs-1.patch
+https://ftp.osuosl.org/pub/rpm/releases/rpm-4.18.x/rpm-4.18.0.tar.bz2

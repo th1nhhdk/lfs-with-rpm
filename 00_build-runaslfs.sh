@@ -36,4 +36,3 @@ bash ./01/13_tar.sh
 bash ./01/14_xz.sh
 bash ./01/15_binutils-stage2.sh
 bash ./01/16_gcc-stage2.sh
-
