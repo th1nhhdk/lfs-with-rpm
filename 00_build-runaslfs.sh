@@ -37,6 +37,3 @@ bash ./01/14_xz.sh
 bash ./01/15_binutils-stage2.sh
 bash ./01/16_gcc-stage2.sh
 
-bash ./02/00_changeownership.sh
-bash ./02/01_preparevirtualkernelfs.sh
-bash ./02/02_chroot.sh
