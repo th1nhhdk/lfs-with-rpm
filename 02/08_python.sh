@@ -1,23 +1,18 @@
 #!/bin/bash
 set -ex
-
-if [ -z ${LFS+x} ]; then
-    echo "=> ERR: LFS variable is not set!"
-    exit 1
-fi
-
-PKGNAME=sed
-PKGVER=4.8
+PKGNAME=Python
+PKGVER=3.10.7
 ARCHIVEDIR=$PKGNAME-$PKGVER
 ARCHIVENAME=$ARCHIVEDIR.tar.xz
 
-pushd $LFS/sources
+pushd /sources
   tar -xf $ARCHIVENAME
   pushd $ARCHIVEDIR
     ./configure --prefix=/usr   \
-                --host=$LFS_TGT
+                --enable-shared \
+                --without-ensurepip
     make
-    make DESTDIR=$LFS install
+    make install
   popd
   rm -rf $ARCHIVEDIR
 popd

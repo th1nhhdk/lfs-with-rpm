@@ -1,5 +1,11 @@
 #!/bin/bash
 set -ex
+
+if [ -z ${LFS+x} ]; then
+    echo "=> ERR: LFS variable is not set!"
+    exit 1
+fi
+
 PKGNAME=gzip
 PKGVER=1.12
 ARCHIVEDIR=$PKGNAME-$PKGVER
