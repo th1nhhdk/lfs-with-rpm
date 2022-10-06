@@ -20,12 +20,12 @@ pushd $LFS/sources
     cd build
     echo "rootsbindir=/usr/sbin" > configparms
     ../configure                             \
-	  --prefix=/usr                      \
-	  --host=$LFS_TGT                    \
-	  --build=$(../scripts/config.guess) \
-	  --enable-kernel=3.2                \
-	  --with-headers=$LFS/usr/include    \
-	  libc_cv_slibdir=/usr/lib
+	        --prefix=/usr                      \
+	        --host=$LFS_TGT                    \
+	        --build=$(../scripts/config.guess) \
+	        --enable-kernel=3.2                \
+	        --with-headers=$LFS/usr/include    \
+	        libc_cv_slibdir=/usr/lib
     make
     make DESTDIR=$LFS install
     sed '/RTLDLIST=/s@/usr@@g' -i $LFS/usr/bin/ldd
